@@ -21,3 +21,6 @@ into
 ```
 2. delete the token.json
 3. add in the code in https://developers.google.cn/calendar/api/v3/reference/events/insert?hl=zh-cn#go
+
+## Configure access with application
+enter : https://console.cloud.google.com/apis/credentials/consent?hl=zh-tw&project=uber-demo-327504
