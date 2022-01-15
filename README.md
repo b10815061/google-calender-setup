@@ -24,3 +24,19 @@ into
 
 ## Configure access with application
 enter : https://console.cloud.google.com/apis/credentials/consent?hl=zh-tw&project=uber-demo-327504
+
+## set-up for javascript
+
+refer to https://developers.google.com/calendar/api/quickstart/js
+
+the client ID is the OAuth key
+
+the API key is the API key
+
+we use both in the js case
+
+the OAuth key must be cofigure as web application to be the type, and the authorized js origins when first created
+
+(for some reason it can't be change after creation)
+
+furthermore, the url MUST not contain numbers except the port, for example 127.0.0.1:9999 is not a valid js origins url, although the page seems right, it will show "invalid_request" if clicks on the btn.
